@@ -1,0 +1,60 @@
+Arduino Function Generator
+by Evangelos Petrongonas, hopefully more to join :)
+
+Overview:
+SImple Design Function Generator using Arduino UNO and 12bit DAC, with SPI or I2C Interface, (and maybe 9V external supply).
+
+Output:
+    Basic Wavefroms like:
+        Sine
+        Triangle
+        Ramp
+        Square
+DC Offset: TBD (most propably 0 or max 1.5 Vdc)
+
+Specs:
+    12bit vertical Accuracy
+    Max Output Current:  25 or 100 mA (depends on Negative Supply Design)
+Sine
+Output Frequency: TBD (in the range of 10-100 KHz)
+Amplitude: 3Vpp (+-1.5Vampl) 
+Triangle
+Ramp
+Square
+
+UI
+Serial Communication Command Prompt or Pots and Switches (not so likely)
+
+Bill of Materials:
+Arduino UNO v3
+12bit DAC (Propably MAX 5712)
+LM337 Negative Voltage Regulator (Depending on which Negative Supply  is used)
+Ultra Low Power OpAmp (TBD)
+
+Currently Working On:
+    Design Negative Supply for the output OpAmp. 
+    Points to be discussed:
+If the Arduino is used for the PWM generation then a Voltage Inverter and Regulator Cip is required such as TL7660,LTC1046,or MAX680-681. The downside is that theese IC's may be difficult to find. Finally the maximum output current of 
+ An external supply (9V) is used to supply a NE555 timer in order to create the PWM for the LM337 Voltage Regulator. Moreover the maximum output current f the Generator is increased to 100mA.
+     
+
+ToDo:
+Specify Generator Characteristics
+Create Dropbox/Github Page
+Finalise Bill of Materials
+Start Working on Arduino Code
+Implement SPI Interface 
+Test and DEBUG
+Work on the rest of the  
+
+Completed:
+    
+*(D): Design Completed, (UT): Unit Tested, (ST): System Tested. 
+
+Links
+Schematics :
+Codes:
+Github:
+Datasheets:
+    https://datasheets.maximintegrated.com/en/ds/MAX5712.pdf
+    https://datasheets.maximintegrated.com/en/ds/MAX5812.pdf
