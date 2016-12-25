@@ -1,6 +1,8 @@
 Arduino Function Generator
 by Evangelos Petrongonas, hopefully more to join :)
 
+CURRENT STATUS: VERY EARLY DESIGN STAGE
+
 Overview:
 SImple Design Function Generator using Arduino UNO and 12bit DAC, with SPI or I2C Interface, (and maybe 9V external supply).
 
