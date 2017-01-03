@@ -1,0 +1,7 @@
+#
+$CMP LM6142AIM
+D Dual High Speed/Low Power 17 MHz Rail-to-Rail I/O Operational Amplifier
+K LM6142 Amplifier RR 17MHZ
+F http://www.ti.com/lit/ds/symlink/lm6142.pdf
+$ENDCMP
+

@@ -1,0 +1,9 @@
+
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAC8512FPZ
++5V, Serial Input Complete 12-Bit DAC
+F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC8512.pdf
+$ENDCMP
+#
+#End Doc Library

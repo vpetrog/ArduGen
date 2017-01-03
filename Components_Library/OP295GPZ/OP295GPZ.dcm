@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OP295GPZ
+Rail-to-Rail Dual Op Amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP295_495.pdf
+$ENDCMP
+#
+#End Doc Library
