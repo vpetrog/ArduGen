@@ -1,2 +1,7 @@
 This folder contains schematic libraries and footprints for the components used in the ArduGen Project, that can be found here
 https://hackaday.io/project/19134-ardugen
+
+More over there are libraries for more parts that were not used in the final design like
+DAC8512
+LM6142
+OP295GPZ
