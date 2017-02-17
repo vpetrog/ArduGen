@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9102BCPZ
+D 14 bit Waveform Generator
+K [Waveform] [Generator] [DAC]
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9102.pdf
+$ENDCMP
+#
+$CMP ADA4807-4ARUZ
+D 3.1 nV/√Hz, 1 mA, 180 MHz, Rail-to-Rail Input/Output Amplifier
+K [Op Amp] [Rail to Rail] [High Speed]
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
+$ENDCMP
+#
+$CMP DSC1101
+D MEMS Oscilator
+K Oscilator MEMS
+$ENDCMP
+#
+$CMP FS7140-01G-XTD
+D I2C Programmable 1-PLL Clock
+K [PLL] [Clock] [I2C]
+F http://www.onsemi.com/pub_link/Collateral/FS7140-D.PDF
+$ENDCMP
+#
+$CMP LM2776
+D Switched Capacitor Inverter
+K [Switched] [Inverter] [Power Supply] 
+F http://www.ti.com/lit/ds/symlink/lm2776.pdf
+$ENDCMP
+#
+#End Doc Library
